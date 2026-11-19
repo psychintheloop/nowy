@@ -133,3 +133,22 @@ $header-font-family: $sans-serif;
     padding: 0 1em !important;
   }
 }
+
+/* Szerszy układ strony na dużych monitorach (zamiast wielkich białych marginesów po bokach) */
+#main {
+  max-width: 1600px !important;
+  padding-left: 2em !important;
+  padding-right: 2em !important;
+}
+
+@media (min-width: 80em) {
+  .sidebar {
+    width: 280px !important; /* stała, zgrabna szerokość lewej kolumny */
+  }
+  .archive,
+  .page {
+    width: calc(100% - 320px) !important; /* lista wpisów i artykuł zajmują całą resztę szerokości */
+    padding-right: 1em !important;
+  }
+}
+
