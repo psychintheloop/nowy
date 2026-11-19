@@ -166,21 +166,32 @@ $header-font-family: $sans-serif;
 
 /* Powiększenie tekstu na telefonach (bez zmiany wielkości banera i tytułu otwartego artykułu) */
 @media (max-width: 768px) {
+  /* Główny tytuł artykułu (H1) na telefonie */
+  .layout--single .page__title {
+    font-size: 1.6rem !important; /* <-- Większy niż H2 (1.6rem) */
+    line-height: 1.25 !important;
+  }
+
+  /* Główny tekst artykułów i opisów */
   .layout--single .page__content p,
   .layout--single .page__content li,
   .layout--single .page__content dl,
-  .archive__item-excerpt,
-  .page__meta {
-    font-size: 0.85rem !important;
+  .archive__item-excerpt {
+    font-size: 1.1rem !important;
     line-height: 1.45 !important;
   }
-
+  
+  .page__meta {
+    font-size: 0.95rem !important;
+    line-height: 1.45 !important;
+  }
+  
   .layout--single .page__content h2 {
-    font-size: 1.5rem !important;
+    font-size: 1.4rem !important;
   }
 
   .layout--single .page__content h3 {
-    font-size: 1.3rem !important;
+    font-size: 1.2rem !important;
   }
 
   .greedy-nav a {
