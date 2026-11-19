@@ -1,7 +1,5 @@
 main:
   - title: '<i class="fas fa-home home-icon"></i>'
     url: /
-  - title: "Artykuły"
-    url: /posts/
   - title: "O mnie"
     url: /about/
