@@ -134,40 +134,65 @@ $header-font-family: $sans-serif;
   }
 }
 
-/* Zbalansowana szerokość strony na dużych monitorach (z wygodnym oddechem po bokach) */
-#main {
-  max-width: 1280px !important; /* zamiast 1600px - zwęża całość i daje marginesy po bokach */
-  margin-left: auto !important;
-  margin-right: auto !important;
-  padding-left: 2em !important;
-  padding-right: 2em !important;
-}
-
-@media (min-width: 80em) {
-  .sidebar {
-    width: 260px !important;
-  }
-  .archive,
-  .page {
-    width: calc(100% - 300px) !important;
-    max-width: 860px !important; /* optymalna szerokość kolumny tekstu z prawej strony */
-    padding-right: 1em !important;
-  }
-}
-
 /* Zmniejszenie zbyt dużej czcionki całego tekstu na średnich i dużych ekranach */
 html {
   font-size: 15px !important;
 
   @media (min-width: 48em) {
-    font-size: 16px !important; /* standardowy, wygodny rozmiar na laptopach */
+    font-size: 16px !important;
   }
 
   @media (min-width: 64em) {
-    font-size: 16.5px !important; /* zamiast domyślnych 20px w motywie */
+    font-size: 16.5px !important;
   }
 
   @media (min-width: 80em) {
-    font-size: 17px !important; /* zamiast domyślnych 22px na dużych monitorach */
+    font-size: 17px !important;
+  }
+}
+
+/* Wyśrodkowanie listy wpisów, gdy kolumna boczna jest tymczasowo wyłączona */
+.archive {
+  float: none !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 100% !important;
+  max-width: 850px !important;
+  padding-right: 0 !important;
+}
+
+/* Wyświetlanie miniaturek (teaser) po lewej stronie wpisów na liście na stronie głównej */
+.list__item .archive__item {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 1.5em !important;
+  margin-bottom: 2em !important;
+}
+
+.list__item .archive__item-teaser {
+  flex: 0 0 180px !important; /* szerokość miniaturki: 180px */
+  max-width: 180px !important;
+  max-height: 130px !important;
+  overflow: hidden !important;
+  border-radius: 6px !important;
+  margin-top: 0.3em !important;
+}
+
+.list__item .archive__item-teaser img {
+  width: 100% !important;
+  height: 130px !important;
+  object-fit: cover !important; /* ładne dopasowanie kadru bez rozciągania */
+}
+
+/* Na telefonach miniaturka wyświetli się nad tytułem wpisu */
+@media (max-width: 600px) {
+  .list__item .archive__item {
+    flex-direction: column !important;
+  }
+  .list__item .archive__item-teaser {
+    flex: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    max-height: 200px !important;
   }
 }
