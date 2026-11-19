@@ -1,8 +1,36 @@
 ---
 permalink: /about/
-title: "About"
+title: "O mnie"
+
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+<h1 class="section-heading">Cześć, tu Marta! 👋</h1>
+<h2 class="section-heading">Psycholog w IT<br>Analiza danych, automatyzacja procesów i czynnik ludzki w cyberbezpieczeństwie</h2>
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+<p>Absolwentka psychologii na UW z doświadczeniem w analizie danych i automatyzacji procesów. Buduję swoją ścieżkę w praktycznym cyberbezpieczeństwie. Naturalne zainteresowanie socjotechnikami i phishingiem wykorzystuję do analizy czynnika ludzkiego (Human Factor).</p>
+
+<p>Wierzę, że najłatwiejszym punktem wejścia do każdego systemu jest (niestety) <strong>ludzki system operacyjny</strong>. Łączę twarde umiejętności inżynierii danych i umiejętności analityczne z psychologicznym zrozumieniem mechanizmów manipulacji oraz analizy behawioralnej.</p>
+
+<hr>
+
+<h2 class="section-heading">🛠️ Moja Skrzynka z Narzędziami (Tech Stack)</h2>
+
+<ul>
+    <li><strong>Cyberbezpieczeństwo i Czynnik Ludzki:</strong> Certyfikat CompTIA Security+ | Socjotechnika (Social Engineering) | OSINT | Projektowanie szkoleń Security Awareness</li>
+    <li><strong>Inżynieria i Analiza Danych:</strong> Zaawansowany SQL (Oracle, Databricks Big Data) | Python &amp; PySpark | Power BI</li>
+    <li><strong>Automatyzacja procesów:</strong> Power Query | VBA &amp; Makra | MS Access</li>
+</ul>
+
+<hr>
+
+<h2 class="section-heading">🔬 Nad czym pracuję? (Projekty)</h2>
+
+<p>Moje wpisy tutaj to próba przełożenia psychologii społecznej na język cyberbezpieczeństwa (a czasami odwrotnie ;)):</p>
+
+<hr>
+
+<h2 class="section-heading">📬 Znajdziesz mnie też tutaj:</h2>
+
+<ul>
+    <li>Więcej o moim profilu zawodowym: <a href="https://linkedin.com/in/marta-cmil" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+</ul>
