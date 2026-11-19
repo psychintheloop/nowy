@@ -114,11 +114,11 @@ $header-font-family: $sans-serif;
 /* Dopasowanie wysokości banera i wielkości napisów na telefonach (ekrany poniżej 768px) */
 @media (max-width: 768px) {
   .page__hero--overlay {
-    height: 185px !important;
-    min-height: 185px !important;
-    max-height: 185px !important;
+    height: 145px !important;
+    min-height: 145px !important;
+    max-height: 145px !important;
     padding-top: 2.8em !important;   /* lekki odstęp, żeby ikona menu na telefonie nie zasłaniała tytułu */
-    padding-bottom: 1em !important;
+    padding-bottom: 0.4em !important;
   }
 
   .page__hero--overlay .page__title {
