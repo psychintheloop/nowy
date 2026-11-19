@@ -55,4 +55,4 @@ I tu dochodzimy do jeszcze jednego, absolutnie kluczowego hasła: **„Pomyśl, 
 
 Wiedza o pułapkach myślenia nie powinna sprawić, że zamkniemy się w domu i będziemy szydełkować własne ubrania w świetle świec, bo prąd też drożeje. Ma dać nam spokój i sekundę na złapanie oddechu – dokładnie tyle czasu, ile potrzebuje nasz logiczny umysł, by zadać jedno proste pytanie: **„Czy ja tego w ogóle potrzebuję?”**.
 
-Uczę się więc najważniejszego balansu przed każdym listopadowym szaleństwem: jak uśpić owczy pęd podczas zakupów i obudzić System 2 z listą w ręku.
+Uczę się więc najważniejszego balansu przed każdym listopadowym szaleństwem: jak uśpić owczy pęd podczas zakupów i obudzić System 2 z listą zakupów w ręku.
