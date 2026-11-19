@@ -152,3 +152,19 @@ $header-font-family: $sans-serif;
   }
 }
 
+/* Zmniejszenie zbyt dużej czcionki całego tekstu na średnich i dużych ekranach */
+html {
+  font-size: 15px !important;
+
+  @media (min-width: 48em) {
+    font-size: 16px !important; /* standardowy, wygodny rozmiar na laptopach */
+  }
+
+  @media (min-width: 64em) {
+    font-size: 16.5px !important; /* zamiast domyślnych 20px w motywie */
+  }
+
+  @media (min-width: 80em) {
+    font-size: 17px !important; /* zamiast domyślnych 22px na dużych monitorach */
+  }
+}
