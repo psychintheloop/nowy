@@ -8,6 +8,10 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+/* Usunięcie małego napisu "psychintheloop" z lewego górnego rogu */
+.site-title {
+  display: none !important;
+}
 /* Przezroczysty pasek nawigacji nałożony bezpośrednio na baner */
 .masthead {
   position: absolute;
@@ -21,11 +25,15 @@ search: false
 
 .masthead__inner-wrap {
   background: transparent !important;
+  max-width: 100% !important;
+  padding-left: 1em !important;
+  padding-right: 1.5em !important;
 }
 
 /* Białe linki i tytuł w górnym pasku, żeby były czytelne na zdjęciu */
 .greedy-nav {
   background: transparent !important;
+  justify-content: flex-end !important;
 }
 
 .greedy-nav a,
@@ -38,4 +46,25 @@ search: false
 .page__hero--overlay {
   margin-top: 0 !important;
   padding-top: 6em !important; /* odstęp, żeby duży tytuł nie wchodził pod menu */
+}
+
+/* Powiększona, ciemnożółta ikona domku w górnym menu */
+.home-icon {
+  font-size: 1.5em !important;
+  color: #eab308 !important;
+  vertical-align: middle;
+}
+
+.home-icon:hover {
+  color: #facc15 !important;
+}
+
+/* Wyśrodkowanie dużego napisu "Psych in the loop" na środku banera */
+.page__hero--overlay .wrapper {
+  text-align: center !important;
+}
+
+.page__hero--overlay .page__title {
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
