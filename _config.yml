@@ -106,7 +106,7 @@ defaults:
       related: true
       header:
         overlay_image: /assets/images/baner.jpg
-        overlay_filter: 0.3
+        overlay_filter: 0.5
   # _pages
   - scope:
       path: "_pages"
@@ -116,7 +116,7 @@ defaults:
       author_profile: false
       header:
         overlay_image: /assets/images/baner.jpg
-        overlay_filter: 0.3
+        overlay_filter: 0.5
 
 category_archive:
   type: liquid
