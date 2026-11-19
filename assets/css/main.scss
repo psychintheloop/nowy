@@ -48,13 +48,13 @@ $header-font-family: $sans-serif;
   @media (max-width: 768px) { height: 125px !important; }
 }
 .page__hero::before {
-  content: "Psych in the loop";
+  content: "Psych#{"\A"}in the loop";
   position: absolute;
   top: 0.45em;
   left: 50%;
   transform: translateX(-50%);
   width: 90%;
-  max-width: 380px;
+  max-width: 600px;
   text-align: center;
   font-size: 2.3em;
   font-weight: 800;
