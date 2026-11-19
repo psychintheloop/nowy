@@ -4,7 +4,7 @@ title: "Kolejny „Black Friday/Week/Month/itd.”, czyli o niemyśleniu"
 excerpt: "O psychologii zakupowego szaleństwa i o tym, jak obudzić logiczny umysł w listopadzie."
 date: 2026-11-17 19:27:00 +0100
 header:
-  teaser: /assets/images/black-friday-miniaturka.jpg
+  teaser: /assets/images/black-friday.png
 ---
 
 Nadchodzi Czarny Piątek, który ostatnio rozciąga się na cały miesiąc. I nagle odkrywam, że koniecznie potrzebuję nowego tostera, kremu pod oczy, namiotu sześcioosobowego, ukulele czy najwspanialszego zestawu garnków samogotujących. Im większy napis **„przecena”** widzę na ekranie, tym mniejszy sens widzę w trzymaniu pieniędzy na koncie. Promocyjny amok.
