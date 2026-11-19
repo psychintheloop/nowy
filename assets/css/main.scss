@@ -8,10 +8,6 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* Usunięcie małego napisu "psychintheloop" z lewego górnego rogu */
-.site-title {
-  display: none !important;
-}
 /* Przezroczysty pasek nawigacji nałożony bezpośrednio na baner */
 .masthead {
   position: absolute;
@@ -30,22 +26,20 @@ search: false
   padding-right: 1.5em !important;
 }
 
-/* Białe linki i tytuł w górnym pasku, żeby były czytelne na zdjęciu */
+/* Białe linki w górnym pasku i dociśnięcie menu do prawej */
 .greedy-nav {
   background: transparent !important;
   justify-content: flex-end !important;
 }
 
-.greedy-nav a,
-.site-title {
+.greedy-nav a {
   color: #ffffff !important;
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
 }
 
-/* Dociśnięcie banera do samej górnej krawędzi ekranu */
-.page__hero--overlay {
-  margin-top: 0 !important;
-  padding-top: 6em !important; /* odstęp, żeby duży tytuł nie wchodził pod menu */
+/* Usunięcie małego napisu z lewego górnego rogu */
+.site-title {
+  display: none !important;
 }
 
 /* Powiększona, ciemnożółta ikona domku w górnym menu */
@@ -59,12 +53,45 @@ search: false
   color: #facc15 !important;
 }
 
-/* Wyśrodkowanie dużego napisu "Psych in the loop" na środku banera */
-.page__hero--overlay .wrapper {
-  text-align: center !important;
+/* Dociśnięcie banera do samej górnej krawędzi i wyśrodkowanie zawartości */
+.page__hero--overlay {
+  margin-top: 0 !important;
+  padding-top: 6em !important;
 }
 
+.page__hero--overlay .wrapper {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  width: 100% !important;
+}
+
+/* Główny napis "Psych / in the loop" - kolor gradientowy, odstęp i wyśrodkowanie */
 .page__hero--overlay .page__title {
-  margin-left: auto !important;
-  margin-right: auto !important;
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  text-align: center !important;
+  margin: 0 auto !important;
+  line-height: 1.35 !important;
+  background: linear-gradient(90deg, #e5c17b 35%, #f3efe6 50%, #8ab8d8 65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 2px 10px rgba(0, 0, 0, 0.9));
+}
+
+/* Dopisek "Na styku psychologii i cyberbezpieczeństwa" na środku pod tytułem */
+.page__hero--overlay .page__lead {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  text-align: center !important;
+  margin: 0.8em auto 0 auto !important;
+  color: #cbd5e1 !important;
+  font-size: 1.1em !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.03em;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.95) !important;
 }
