@@ -11,7 +11,7 @@ $header-font-family: $sans-serif;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* 2. Przezroczyste menu po prawej stronie i złoty domek */
+/* 1. Przezroczyste menu po prawej stronie i złoty domek */
 .masthead {
   position: absolute;
   top: 0;
@@ -35,7 +35,7 @@ $header-font-family: $sans-serif;
   color: #eab308 !important;
 }
 
-/* 3. Jeden wspólny baner na wszystkich stronach (250px komputer / 145px telefon) */
+/* 2. Jeden wspólny baner na wszystkich stronach (250px komputer / 145px telefon) */
 .page__hero {
   position: relative !important;
   margin: 0 0 1.5em 0 !important;
@@ -70,39 +70,44 @@ $header-font-family: $sans-serif;
   content: "Na styku psychologii i cyberbezpieczeństwa";
   position: absolute;
   top: 7.5em;
+  left: 0;
   width: 100%;
   text-align: center;
   font-size: 1.05em;
   color: #e2e8f0;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.95);
+  z-index: 15;
   pointer-events: none;
   @media (max-width: 768px) { top: 5.4em; font-size: 0.85em; }
 }
 
-/* 5. Miniaturki przy wpisach na liście */
+/* 3. Usunięcie napisu "Recent Posts" i wyśrodkowanie treści (gdy brak lewej kolumny) */
+.archive__subtitle {
+  display: none !important;
+}
+.archive, .page {
+  float: none !important;
+  margin: 0 auto !important;
+  width: 100% !important;
+  max-width: 800px !important;
+  padding: 0 1em !important;
+}
+
+/* 4. Miniaturka dokładnie NAD tytułem i podtytułem wpisu */
 .list__item .archive__item {
-  display: grid !important;
-  grid-template-columns: 180px 1fr !important;
-  column-gap: 1.5em !important;
-  margin-bottom: 2em !important;
-  @media (max-width: 600px) { display: block !important; }
+  display: flex !important;
+  flex-direction: column !important;
+  margin-bottom: 3em !important;
 }
 .list__item .archive__item-teaser {
-  grid-column: 1;
-  grid-row: 1 / span 4;
-  width: 180px !important;
-  height: 120px !important;
-  border-radius: 6px;
-  overflow: hidden;
-  @media (max-width: 600px) { width: 100% !important; height: 180px !important; margin-bottom: 0.8em; }
+  width: 100% !important;
+  max-height: 280px !important;
+  overflow: hidden !important;
+  border-radius: 8px !important;
+  margin-bottom: 1em !important;
 }
 .list__item .archive__item-teaser img {
   width: 100% !important;
-  height: 100% !important;
+  height: 280px !important;
   object-fit: cover !important;
 }
-.list__item .archive__item-title, .list__item .page__meta, .list__item .archive__item-excerpt {
-  grid-column: 2;
-  margin-top: 0 !important;
-}
-.list__item .archive__item:not(:has(.archive__item-teaser)) { display: block !important; }
