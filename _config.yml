@@ -16,7 +16,7 @@
 
 title: psychintheloop
 url: "https://psychintheloop.github.io"
-baseurl: "/nowy"
+baseurl: ""
 description: "Na styku psychologii i cyberbezpieczeństwa."
 locale: "pl-PL"
 minimal_mistakes_skin: default
