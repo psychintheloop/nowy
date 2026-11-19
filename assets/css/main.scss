@@ -134,20 +134,23 @@ $header-font-family: $sans-serif;
   }
 }
 
-/* Szerszy układ strony na dużych monitorach (zamiast wielkich białych marginesów po bokach) */
+/* Zbalansowana szerokość strony na dużych monitorach (z wygodnym oddechem po bokach) */
 #main {
-  max-width: 1600px !important;
+  max-width: 1280px !important; /* zamiast 1600px - zwęża całość i daje marginesy po bokach */
+  margin-left: auto !important;
+  margin-right: auto !important;
   padding-left: 2em !important;
   padding-right: 2em !important;
 }
 
 @media (min-width: 80em) {
   .sidebar {
-    width: 280px !important; /* stała, zgrabna szerokość lewej kolumny */
+    width: 260px !important;
   }
   .archive,
   .page {
-    width: calc(100% - 320px) !important; /* lista wpisów i artykuł zajmują całą resztę szerokości */
+    width: calc(100% - 300px) !important;
+    max-width: 860px !important; /* optymalna szerokość kolumny tekstu z prawej strony */
     padding-right: 1em !important;
   }
 }
