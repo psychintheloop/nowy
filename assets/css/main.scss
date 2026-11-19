@@ -69,14 +69,14 @@ $header-font-family: $sans-serif;
 .page__hero::after {
   content: "Na styku psychologii i cyberbezpieczeństwa";
   position: absolute;
-  top: 9.8em;
+  top: 7.5em;
   width: 100%;
   text-align: center;
   font-size: 1.05em;
   color: #e2e8f0;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.95);
   pointer-events: none;
-  @media (max-width: 768px) { top: 7.4em; font-size: 0.85em; }
+  @media (max-width: 768px) { top: 5.4em; font-size: 0.85em; }
 }
 
 /* 5. Miniaturki przy wpisach na liście */
