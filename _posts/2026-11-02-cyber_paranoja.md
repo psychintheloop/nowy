@@ -8,7 +8,7 @@ categories:
 tags:
   - cyber
 header:
-  teaser: /assets/images/cyber-paranoja-miniaturka.jpg
+  teaser: /assets/images/lodówka.jpg
 ---
 
 W medycynie istnieje dobrze znane zjawisko: **syndrom studenta medycyny**. Kiedy przyszli lekarze zaczynają uczyć się o kolejnych jednostkach chorobowych, nagle z przerażeniem odkrywają ich objawy u siebie. Zwykły ból głowy staje się objawem nieuleczalnego guza mózgu, skurcz w łydce wymaga natychmiastowej kroplówki z potasem, lekki kaszel to pierwszy syndrom rzadkiej choroby tropikalnej.
