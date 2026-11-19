@@ -11,12 +11,6 @@ $header-font-family: $sans-serif;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* 1. Rozmiar czcionki na dużych ekranach */
-html {
-  font-size: 16px !important;
-  @media (min-width: 80em) { font-size: 17px !important; }
-}
-
 /* 2. Przezroczyste menu po prawej stronie i złoty domek */
 .masthead {
   position: absolute;
@@ -83,14 +77,6 @@ html {
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.95);
   pointer-events: none;
   @media (max-width: 768px) { top: 7.4em; font-size: 0.85em; }
-}
-
-/* 4. Wyśrodkowanie treści (gdy brak kolumny bocznej) */
-.archive, .page {
-  float: none !important;
-  margin: 0 auto !important;
-  width: 100% !important;
-  max-width: 850px !important;
 }
 
 /* 5. Miniaturki przy wpisach na liście */
