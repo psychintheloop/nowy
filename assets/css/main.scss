@@ -126,12 +126,13 @@ $header-font-family: $sans-serif;
 /* === POPRAWKA WYŁĄCZNIE DLA ARTYKUŁÓW I PODSTRON (np. "O mnie") === */
 /* Nie wpływa na baner ani na stronę główną */
 
-.layout--single .page {
+.layout--single .page,
+.layout--single .page__related {
   float: none !important;
   margin-left: auto !important;
   margin-right: auto !important;
   width: 100% !important;
-  max-width: 800px !important; /* taka sama szerokość jak lista na stronie głównej */
+  max-width: 1050px !important; /* taka sama szerokość jak lista na stronie głównej */
   padding-left: 1em !important;
   padding-right: 1em !important;
 }
