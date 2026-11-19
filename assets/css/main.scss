@@ -64,7 +64,7 @@ $header-font-family: $sans-serif;
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.95);
   z-index: 15;
   pointer-events: none;
-  @media (max-width: 768px) { top: 1.6em; font-size: 1.45em; letter-spacing: 0.12em; max-width: 190px; }
+  @media (max-width: 768px) { top: 1.6em; font-size: 1.45em; letter-spacing: 0.12em; max-width: 160px; }
 }
 .page__hero::after {
   content: "Na styku psychologii i cyberbezpieczeństwa";
