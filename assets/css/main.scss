@@ -189,7 +189,7 @@ $header-font-family: $sans-serif;
 
   /* 4. Śródtytuł H3 (spoko relacja do H2) */
   .layout--single .page__content h3 {
-    font-size: 1.2rem !important;
+    font-size: 1.25rem !important;
     line-height: 1.35 !important;
   }
 
@@ -198,8 +198,8 @@ $header-font-family: $sans-serif;
   .layout--single .page__content li,
   .layout--single .page__content dl,
   .archive__item-excerpt {
-    font-size: 1.1rem !important;
-    line-height: 1.35 !important;
+    font-size: 1.2rem !important;
+    line-height: 1.25 !important;
   }
 
   /* 6. Drobny podpis (data, czas czytania) */
