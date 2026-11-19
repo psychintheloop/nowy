@@ -64,7 +64,7 @@ $header-font-family: $sans-serif;
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.95);
   z-index: 15;
   pointer-events: none;
-  @media (max-width: 768px) { top: 1.6em; font-size: 1.45em; letter-spacing: 0.12em; max-width: 160px; }
+  @media (max-width: 768px) { top: 1.2em; font-size: 1.45em; letter-spacing: 0.12em; max-width: 160px; }
 }
 .page__hero::after {
   content: "Na styku psychologii i cyberbezpieczeństwa";
@@ -78,7 +78,7 @@ $header-font-family: $sans-serif;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.95);
   z-index: 15;
   pointer-events: none;
-  @media (max-width: 768px) { top: 5.4em; font-size: 0.85em; }
+  @media (max-width: 768px) { top: 6.4em; font-size: 1em; }
 }
 
 /* 3. Usunięcie napisu "Recent Posts" i wyśrodkowanie treści (gdy brak lewej kolumny) */
@@ -171,20 +171,20 @@ $header-font-family: $sans-serif;
   .layout--single .page__content dl,
   .archive__item-excerpt,
   .page__meta {
-    font-size: 1.25rem !important;
+    font-size: 1.75rem !important;
     line-height: 1.45 !important;
   }
 
   .layout--single .page__content h2 {
-    font-size: 1.8rem !important;
-  }
-
-  .layout--single .page__content h3 {
     font-size: 1.6rem !important;
   }
 
+  .layout--single .page__content h3 {
+    font-size: 1.4rem !important;
+  }
+
   .greedy-nav a {
-    font-size: 1.1rem !important;
+    font-size: 1rem !important;
   }
 }
 
