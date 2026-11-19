@@ -3,10 +3,6 @@ layout: single
 title: "Syndrom studenta medycyny w cyberbezpieczeństwie, <br>czyli jak dopadła mnie cyber-paranoja"
 excerpt: "O heurystyce dostępności i o tym, co z niej wynika."
 date: 2026-11-02T15:34:30-04:00
-categories:
-  - blog
-tags:
-  - cyber
 header:
   teaser: /assets/images/lodowka.png
 ---
