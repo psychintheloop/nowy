@@ -4,7 +4,7 @@ title: "Kevin Mitnick: haker wszech czasów"
 excerpt: "Nie potrzebował komputera, żeby wejść do najlepiej chronionych korporacji."
 date: 2026-11-06 11:30:00 -0500
 header:
-  teaser: /assets/images/mitnick-miniaturka.jpg
+  teaser: /assets/images/hacker.jpg
 ---
 
 W filmach haker wygląda zawsze tak samo. Siedzi w ciemnym pomieszczeniu w czarnej bluzie z kapturem, na ekranie przeskakują zielone literki i układają się w kolejne znaki hasła. Tymczasem jeden z najsłynniejszych cyberprzestępców, Kevin Mitnick (pseudonim Condor), miał na to zupełnie inny patent.
