@@ -93,20 +93,23 @@ $header-font-family: $sans-serif;
   padding: 0 1em !important;
 }
 
-/* 4. Miniaturka dokładnie NAD tytułem i podtytułem wpisu */
-.list__item .archive__item {
-  display: flex !important;
-  flex-direction: column !important;
+/* 4. Kafelki jeden pod drugim na pełną szerokość z miniaturką na górze */
+.grid__item {
+  width: 100% !important;
+  float: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
   margin-bottom: 3em !important;
 }
-.list__item .archive__item-teaser {
-  width: 100% !important;
+
+.grid__item .archive__item-teaser {
   max-height: 280px !important;
   overflow: hidden !important;
   border-radius: 8px !important;
   margin-bottom: 1em !important;
 }
-.list__item .archive__item-teaser img {
+
+.grid__item .archive__item-teaser img {
   width: 100% !important;
   height: 280px !important;
   object-fit: cover !important;
