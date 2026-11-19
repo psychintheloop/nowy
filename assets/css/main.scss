@@ -54,20 +54,23 @@ html {
   @media (max-width: 768px) { height: 145px !important; }
 }
 .page__hero::before {
-  content: "Psych \00000a in the loop";
-  white-space: pre-wrap;
+  content: "Psych in the loop";
   position: absolute;
-  top: 0.55em;
-  width: 100%;
+  top: 0.45em;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 380px;
   text-align: center;
   font-size: 2.3em;
   font-weight: 800;
-  line-height: 1.3;
+  line-height: 1.25;
   letter-spacing: 0.2em;
   color: #f3e5ab;
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.95);
+  z-index: 15;
   pointer-events: none;
-  @media (max-width: 768px) { top: 1.8em; font-size: 1.45em; letter-spacing: 0.12em; }
+  @media (max-width: 768px) { top: 1.6em; font-size: 1.45em; letter-spacing: 0.12em; max-width: 240px; }
 }
 .page__hero::after {
   content: "Na styku psychologii i cyberbezpieczeństwa";
